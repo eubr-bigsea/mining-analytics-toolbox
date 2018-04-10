@@ -9,7 +9,7 @@ The modules, operators and libraries included in the data mining and analytics t
 
 ### Ophidia Primitives
 
-*Ophidia Primitives* provide a wide set of array-based functionalities that can be applied through SQL-like queries on the single arrays stored in Ophidia data cubes. 
+*Ophidia Primitives* provide a wide set of array-based functionalities that can be applied through SQL-like queries on the single arrays stored in Ophidia data cubes. To extend the mathematical and statistical support provided by Ophidia, the GNU Matheval and the GNU Scientific Libary (GSL) libraries have been integrated into the Ophidia primitives.
 
 Links:
 
@@ -48,15 +48,23 @@ Links:
 * Pre-built Spark download: [http://spark.apache.org/downloads.html](http://spark.apache.org/downloads.html)
 * Spark source code: [https://github.com/apache/spark](https://github.com/apache/spark)
 
+### Java Topology Suite (JTS)
+
+*JTS* is an API for modelling and manipulating 2-dimensional linear geometry. It provides numerous object models for Euclidean planar linear geometry together with a set of fundamental geometric functions. 
+
+Links:
+
+* Summary: [https://sourceforge.net/projects/jts-topo-suite/](https://sourceforge.net/projects/jts-topo-suite/)
+* Source code: [https://sourceforge.net/p/jts-topo-suite/code/](https://sourceforge.net/p/jts-topo-suite/code/)
+
 ## New software components
 
-### Extensions for privacy
+### Extensions to Ophidia Primitives
 
 *oph_encrypt* primitive provides tight integration of data privacy support in Ophidia. It can be used to replace certain types of sensitive attributes in the data with the equivalent encrypted values.
 
 Links:
 
-* Documentation: [http://ophidia.cmcc.it/documentation/admin/install/components/install_primitives.html](http://ophidia.cmcc.it/documentation/admin/install/components/install_primitives.html)
 * Source code: [https://github.com/OphidiaBigData/ophidia-primitives](https://github.com/OphidiaBigData/ophidia-primitives)
 
 ### Mining/analytics algorithms based on Ophidia
@@ -94,9 +102,9 @@ Links:
 
 * Source code of the EMaaS algorithms is available at: [https://github.com/eubr-bigsea/EMaaS](https://github.com/eubr-bigsea/EMaaS)
 
-#### Geo-matching Approaches
+#### Map-matching and Geo-matching Approaches
 
-The *Entity Matching as a Service* (EMaaS) offers several Spark-based approaches (i.e., Geo-matching, Semistructured, and Incremental) to identify similar data. 
+The *Entity Matching as a Service* (EMaaS) offers several Spark-based approaches (i.e., Map-matching, Geo-matching, Semistructured, and Incremental) to identify similar objects.
 
 Links:
 
