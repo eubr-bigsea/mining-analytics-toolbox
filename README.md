@@ -63,6 +63,8 @@ Links:
 
 *oph_encrypt* primitive provides tight integration of data privacy support in Ophidia. It can be used to replace certain types of sensitive attributes in the data with the equivalent encrypted values.
 
+*oph_lstm* and *oph_lstm_predict* primitives have been implemented to allow, respectively, the training of a Long Short-Term Memory network (LSTM) and the application of the resulting model. 
+
 Links:
 
 * Source code: [https://github.com/OphidiaBigData/ophidia-primitives](https://github.com/OphidiaBigData/ophidia-primitives)
